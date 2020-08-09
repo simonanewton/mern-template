@@ -1,52 +1,49 @@
-# Application Title
+# MERN Stack Template
 
 ## Description
+
+This application is a MERN Stack Application Template.
 
 ## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
+* [Contributing](#contributing)
 * [Credits](#credits)
 * [License](#license)
 
 ## Installation
 
+To install the required npm packages to run this application, run the following command:
 ```sh
 npm install
 ```
 
 ## Usage
 
+To use this application, run the following command:
 ```sh
 npm start
 ```
 
+## Contributing
+
+<div>
+    <img src="./public/assets/images/profile-pic-circle.png" alt="Profile Picture" width=250/>
+    <h3><b>Simon Newton</b></h3>
+    <hr align=left width=315 />
+    <p>Hey I'm Simon and I'm a Full-Stack Web Developer!</p>
+    <a href="https://github.com/simonanewton" target="_blank">GitHub Profile</a> | <a href="https://www.linkedin.com/in/simon-newton-2a7440129/" target="_blank">LinkedIn Profile</a> | <a href="https://simonanewton.herokuapp.com/" target="_blank">Personal Website</a>
+</div>
+
 ## Credits
 
+* https://www.npmjs.com/package/mongoose
 * https://www.npmjs.com/package/express
+* https://www.npmjs.com/package/react
 
 ## License
 
-![license](https://img.shields.io/badge/license-MIT-green)
+[![license](https://img.shields.io/badge/license-MIT-green)](https://simonanewton.mit-license.org)
 
-MIT License
-
-Copyright (c) [2020] [Simon Newton]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+MIT License &copy; Simon Newton <https://simonanewton.mit-license.org>
