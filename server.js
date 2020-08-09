@@ -8,12 +8,11 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-if (process.env.NODE_ENV === "production") app.use(express.static("client/build"));
+if (process.env.NODE_ENV === "production") app.use(express.static("./client/build"));
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/mern-template",
     { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true },
     () => console.log("Connected to MongoDB database"));
-
 
 app.use(routes);
 
