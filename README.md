@@ -2,7 +2,7 @@
 
 ## Description
 
-This respository is a MERN Stack Application Template. It is open to use for anyone who wants to quickly get started building a full stack web application. To use, simply replace your information and project details in the appropriate files and start building your application! This template is still a work in progress and will continue to be updated with new package versions and syntax as needed. If you have any ideas, suggestions, or conerns about the template, feel free to submit a pull request on GitHub.
+This respository is a MERN Stack Application Template. It is open to use for anyone who wants to quickly get started building a full stack web application. To start, make sure you use this repository as a template instead of simply cloning it, as this will make sure you create a new repository with a fresh commit history. After that, simply replace your personal information and project details in the appropriate files and start building your application! This template is still a work in progress and will continue to be updated with new package versions and syntax as needed. If you have any ideas, suggestions, or conerns about the template, feel free to submit a pull request on GitHub.
 
 ## Table of Contents
 
