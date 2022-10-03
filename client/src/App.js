@@ -1,14 +1,14 @@
-import React from "react";
-import Header from "./components/Header";
+import React, { Component } from "react";
 import Body from "./components/Body";
 
-const App = () => {
-	return (
-		<div>
-			<Header />
-			<Body />
-		</div>
-	);
+class App extends Component {
+	render() {
+		return (
+			<main>
+				<Body />
+			</main>
+		);
+	}
 }
 
 export default App;
