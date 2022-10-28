@@ -18,8 +18,10 @@ app.use(express.json());
 
 if (process.env.NODE_ENV === "production") app.use(express.static("./client/build"));
 
-mongoose.connect(process.env.MONGODB_URI || MONGODB_URI, { useUnifiedTopology: true, useNewUrlParser: true },
-    () => console.log("Connected to MongoDB database"));
+mongoose.connect(process.env.MONGODB_URI || MONGODB_URI, { useUnifiedTopology: true, useNewUrlParser: true }, (err) => {
+        console.log("Connected to MongoDB database");
+        if (err) throw err;
+    });
 
 app.use(routes);
 
