@@ -11,13 +11,19 @@
 		"install": "cd client && npm install",
 		"build": "cd client && npm run build"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/simonanewton/mern-template"
+	},
 	"author": "Simon Newton",
 	"license": "MIT",
 	"devDependencies": {
-		"concurrently": "^7.3.0",
 		"nodemon": "^2.0.4"
 	},
 	"dependencies": {
+		"concurrently": "^7.3.0",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
 		"express": "^4.16.3",
 		"if-env": "^1.0.4",
 		"mongoose": "^6.5.4"
